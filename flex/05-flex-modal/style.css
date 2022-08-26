@@ -64,3 +64,41 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.point-body {
+  display: flex;
+}
+
+.head-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.head-x {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.icon {
+  margin: 16px;
+  flex:1 0 auto;
+}
+
+.text{
+  margin-right:  10px;
+}
+
+.close-button {
+  margin-right: 10px;
+}
+
+button,
+.head-x {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
